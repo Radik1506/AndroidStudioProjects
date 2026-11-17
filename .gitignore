@@ -1,1 +1,6 @@
 *.zip
+*/.gradle/
+*/app/build/
+*/.idea/
+*/gradle/
+*/build/
