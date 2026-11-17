@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"
+        android:orientation="horizontal">
+        <!-- Botó -->
+        <ImageView
+            android:id="@+id/coconut1"
+            android:layout_width="103dp"
+            android:layout_height="97dp"
+            android:src="@drawable/cubilete">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/coconut2"
+            android:layout_width="103dp"
+            android:layout_height="97dp"
+            android:src="@drawable/cubilete">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/coconut3"
+            android:layout_width="103dp"
+            android:layout_height="97dp"
+            android:src="@drawable/cubilete">
+
+        </ImageView>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2pt"
+        android:background="@color/purple_500"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/winCond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="2pt"
+        android:text="You win!!!!"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+</LinearLayout>
